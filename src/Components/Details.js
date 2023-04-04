@@ -18,7 +18,7 @@ const Details = () => {
 
   return (
     <div className="container">
-      <div className="card" style={{ width: "20rem" }}>
+      <div className="card" style={{ width: "500px", alignItems:"left" }}>
         <h3 className="card-header">
           Details Page for the Post with Id - {post.id}
         </h3>
